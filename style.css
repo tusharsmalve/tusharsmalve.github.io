@@ -697,5 +697,67 @@ body{
     .left{
         clip-path: none;
     }
+}
 
+@media screen and (min-width:410px) and (max-width:750px){
+    .left{
+        width: 100%;
+        clip-path: none;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .left-content{
+        margin: 5rem 0 5rem 1.3rem;
+        margin-top: 10rem;
+        width: 100%;
+        padding: 5rem 0 9rem 0rem;
+    }
+
+    .left-content h1{
+        width: 80%;
+        font-size: 4rem;
+    }
+
+    .left-content p{
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    .logo{
+        justify-content: left;
+        margin-left: 3rem;
+    }
+    .logo img{
+        width: 20%;
+    }
+
+    .right-content{
+        padding: 0 0 0 3rem;
+        width: 90%;
+    }
+    .right-content .about-us{
+        padding: 0;
+        margin: 0;
+    }
+    .right-content .about-us p{
+        font-size: 0.9rem;
+    }
+    
+    .right-content .numbers,
+    .right-content .social{
+        padding: 0;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    .right-content .numbers p,
+    .right-content .social p{
+        font-size: 0.9rem;
+    }
+    .right-content .numbers .number i,
+    .right-content .numbers .number a,
+    .right-content .social i,
+    .right-content .social a{
+        font-size: 0.9rem;
+    }
+ 
 }
