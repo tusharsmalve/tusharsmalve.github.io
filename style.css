@@ -652,7 +652,12 @@ color: #FFF;
   text-decoration: none;
   color: #FFF;
   padding-right: 0.5rem;
+  z-index: 1111;
   }
+
+.information p{
+  z-index: 1;
+}
 
 
 .footer_bottom{
